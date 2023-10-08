@@ -1,0 +1,57 @@
+/* Reset some default styles for lists and anchors */
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Style the navigation bar */
+.navbar {
+  background-color: #0048e3be;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 20px; /* Adjust the spacing between menu items */
+}
+
+/* Define different border styles for each list item */
+.navbar li.item1 {
+  border: 2px solid #ff9900;
+  border-radius: 5px;
+}
+
+.navbar li.item2 {
+  border: 2px dashed #00cc66;
+  border-radius: 5px;
+}
+
+.navbar li.item3 {
+  border: 2px double #ff3366;
+  border-radius: 5px;
+}
+
+.navbar li.item4 {
+  border: 2px dotted #0099cc;
+  border-radius: 5px;
+}
+
+.navbar li.item5 {
+  border: 2px groove #ff6600;
+  border-radius: 5px;
+}
+
+.navbar a {
+  color: white;
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.navbar a:hover {
+  color: #ff0000; /* Change color on hover */
+}

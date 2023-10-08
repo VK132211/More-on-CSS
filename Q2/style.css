@@ -1,0 +1,13 @@
+.card {
+  padding: 10px 10px;
+  background-color: yellow;
+  width: fit-content;
+  height: fit-content;
+  background-size: cover;
+  border-radius: 1rem;
+  margin: auto;
+}
+
+.card img {
+  border-radius: 1rem;
+}

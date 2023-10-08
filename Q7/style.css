@@ -1,0 +1,18 @@
+.card {
+  padding: 10px 10px;
+  background-color: yellow;
+  width: fit-content;
+  height: fit-content;
+  background-size: cover;
+  border-radius: 1rem;
+  margin: auto;
+  background-color: rgba(0, 255, 213);
+  opacity: 0.5;
+}
+
+.card:hover {
+  opacity: 1;
+}
+.card img {
+  border-radius: 1rem;
+}

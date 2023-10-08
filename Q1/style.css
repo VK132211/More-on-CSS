@@ -1,0 +1,31 @@
+/* Reset some default styles for lists and anchors */
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Style the navigation bar */
+.navbar {
+  background-color: #0048e3be;
+  padding: 20px 30px;
+}
+
+.navbar ul {
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 20px; /* Adjust the spacing between menu items */
+}
+
+.navbar a {
+  color: white;
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.navbar a:hover {
+  color: #ff0000; /* Change color on hover */
+}
